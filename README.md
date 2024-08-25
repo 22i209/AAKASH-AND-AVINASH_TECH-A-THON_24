@@ -19,7 +19,7 @@ Based on the identified keywords, the chatbot generates predefined responses. Th
 
 
 **Source Code:**
-Code starts here:
+
 
 package hackathon;
 
@@ -44,9 +44,9 @@ public class Bot extends JFrame {
         frame.setTitle("Mental Health ChatBot");
         frame.add(ChatArea);
         frame.add(ChatBot);
-        ChatArea.setSize(500, 400);
+        ChatArea.setSize(600, 400);
         ChatArea.setLocation(2, 2);
-        ChatBot.setSize(500, 30);
+        ChatBot.setSize(600, 30);
         ChatBot.setLocation(2, 400);
         ChatArea.append("How are you feeling today? Happy, sad, tired, or do you need help?\n");
 
